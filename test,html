@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&family=Poppins:ital,wght@0,700;1,400;1,600&family=Prata&family=Tangerine&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <title>She Fertility</title>
+</head>
+<body>
+    <div class="main">
+        <div id="navbar">
+    <nav class="sticky">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"> 
+            <i class="fa fas fa-bars"></i>
+        </label>
+        <!---   Website logo-->
+        <label class="logo">SHEFERTILITY</label>
+        <!---   Navigation links-->
+<ul class="list">
+    <div class="nav-links">
+    <li><a href="/test.html" target=" _blank" class="active">TAKE A TEST</a></li>
+    <li><a href="" class="active">HOW IT WORKS</a></li>
+    <li><a href="#">BLOG</a></li>
+    <li><a href="#">CONTACT US</a></li>
+    <li><a href="#">LEARN MORE</a></li>
+    <div class =search>
+        <input type="search" class="srch" name="" placeholder="type here"> <a href=""><button class="btn"> Search</button></a>
+    </div>
+        </div>
+    </div>
+
+    </ul>
+</nav>  
+<section>
+<div>
+    <h2>Easy Steps to take a test.</h2>
+    <p class="dpd">Be in charge of your body.</p>
+    
+    <div class="row">
+      <div class="column">
+        <img src="images/startnow4.png" alt="Book online" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/testkit3.png" alt="Test kit" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/CONSULT3.png" alt="Results picture" style="width:100%">
+      </div>
+      <div class="column" id="last">
+        <img src="images/CONSULT2.png" alt="Consultation picture" style="width:100%">
+      </div>
+</div>
+</section>
+</body>
+<!---   footer section-->
+<footer class="site-footer">
+    <p>Project SHEFERTILITY <br>
+    <a href="mailto:hege@example.com">mail@shefertility.com</a> <br>
+  &copy; Copyright 2022 
+</p>
+  </footer>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js">
+ </script>
+ 
+</html>

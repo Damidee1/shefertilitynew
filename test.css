@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-image: url(images/boom.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+} 
+/* Logo section */
+.logo{
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    color: #7D5A50;
+}
+/* Navigation section */
+nav ul{
+    float: right;
+    margin-right: 50px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    text-decoration: none;
+    list-style:none;
+}
+nav a{
+    text-decoration: none;
+    list-style: none;
+
+   
+}
+nav ul li a{
+    color: #7D5A50;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a  a:hover{
+background: #E5B299;
+transition: .5s ease-out;
+}
+.search{
+    float:right;
+    margin-bottom: 100px;
+    margin-left:50px; 
+    margin-right: 50px;
+    padding-top: 10px;
+
+}
+.srch{
+    font-family: "prata";
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #E5B299;
+    margin-top: 13px;
+    color: #7D5A50;
+    border-right: none;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+   
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background: #E5B299;
+    border: 2px solid #E5B299;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;   
+}
+.btn:focus{
+    outline:none;
+}
+.btn:hover{
+    color:#693232
+}
+.srch:focus{
+    outline:none
+    
+}
+.checkbtn{
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height:80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none
+}
+#check{
+    display: none;
+
+}
+/* four image containers  */
+.column {
+    float: left;
+    width: 20%;
+    height: 25%;
+    padding: 10px;
+    border-radius: 2px;
+    margin-left: 20px;
+  }
+  .row #last{
+  float: left;
+  }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+    
+  }
+ h2{
+    padding-top: 100px;
+    text-align: center;
+    font-family: "prata";
+    font-weight: bold;
+    font-size: 50px;
+    color: #7D5A50;
+  }
+  .dpd{
+    text-align: center;
+    font-family: "prata";
+    padding-top: 5px;
+    font-size: 30px;
+    color: #7D5A50;
+  }
+  .site-footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #E5B299;
+    color: #7D5A50;
+    text-decoration: none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    position:fixed;
+    bottom:0;
+    width:100%;  
+    }
+.site-footer a{
+text-decoration: none;
+color: #7D5A50;
+}
